@@ -1,6 +1,6 @@
  API - LISTING AND CHANGING USERS
         
-        Requirements: Server, Database Manager and text editor installed.
+        Requirements: Server, Database Manager, text editor and Symfony installed.
         Suggestion: XAMPP (https://www.apachefriends.org/download.html)
         Suggestion: Sublime-text (https://www.sublimetext.com/download)
 
