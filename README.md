@@ -43,7 +43,7 @@
         4. Use as you see fit
         
         
-        5. To test the 'Update' and the 'Delete' User Specific method, click on Button that it is going to open the Postman extension App  
+        5. To test the 'Update' and the 'Delete' User Specific method, click on Button 'Update Specic User' or 'Delete Specific User 'that it is going to open the Postman extension App  
          
         On Postman, to update a user you have to:
         
