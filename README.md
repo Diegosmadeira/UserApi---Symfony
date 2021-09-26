@@ -16,6 +16,7 @@
           DATABASE_URL="(your database manager)://(database user):(database password)@127.0.0.1:3306/(database name)?serverVersion=13&charset=utf8"
 
           Example: DATABASE_URL="mysql://root:@127.0.0.1:3306/user_list?serverVersion=13&charset=utf8"
+         
           
           
         3.Run on comand line(win + cmd on windows):
@@ -39,7 +40,22 @@
           
           Example: http://127.0.0.1:8000     
           
-
+          Step 6.  Creating a Database and table:
+          
+                  1. Go to http://localhost/phpmyadmin/
+                  2. Create a database name: user_list  utf8_unicode_ci
+                  3. Click on database user_list -> click on SQL -> paste this code on SQL:
+                  
+                  CREATE TABLE user (
+                  id INT AUTO_INCREMENT PRIMARY KEY  NOT NULL,
+                  name VARCHAR(255) NOT NULL,
+                  email VARCHAR(255) NOT NULL,
+                  created_at DATETIME NOT NULL,
+                  updated_at DATETIME NOT NULL)
+                  
+                  4. Click Execute;
+          
+          
         4. Use as you see fit
         
         
