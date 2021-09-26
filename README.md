@@ -25,7 +25,7 @@
           
           Step 2. Press Enter
           
-          Step 3. Write symfony serve
+          Step 3. Write: symfony serve
           
           Step 4. Press Enter
           On this step you will get the development web server:
